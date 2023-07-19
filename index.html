@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <nav>
+    <div id="logo">
+        <span>T</span>rip tribe
+        <img src="" alt="">
+    </div>
+    <div id="nav-items">
+        <div id="home" onclick="goToPage('index')">
+            Home
+            <div class="fat-border"></div>
+        </div>
+        <div onclick="showDataBorder(this)" id="discover">
+            Discover
+            <div class="fat-border"></div>
+        </div>
+        <div id="locations" onclick="goToPage('location')">
+            Locations
+            <div class="fat-border"></div>
+        </div>
+        <div id="about">
+            About Us
+            <div class="fat-border"></div>
+        </div>
+        <div onclick="showDataBorder(this)" id="support">
+            Support
+            <div class="fat-border"></div>
+        </div>
+        <div id="search">
+             <img src="images/magnifying-glass.png" alt="">
+            <div id="search-section">
+                <input type="text" placeholder="search">
+                <div id="search-items">
+                 <p id="search-label">Suggested Locations:</p>
+                 <a onclick="goToDetail(1)" href="#">Dubai</a>
+                 <a onclick="goToDetail(3)" href="#">Bhutan</a>
+                 <a onclick="goToDetail(6)" href="#">Tokyo</a>
+                </div>
+            </div>
+        </div>
+        <div id="sign-up">Sign in</div>
+        <div id="menu">
+                <img id="menu-icon" src="images/menu.png" alt="">
+            <div class="menu-wrapper">
+               <div >Discover</div>
+               <div onclick="goToPage('location')">Location</div>
+               <div>About</div>
+               <div>Support</div>
+               <div id="menu-sign-up">Sign in</div>
+               <div id="menu-sign-out">Sign out</div>
+            </div>
+        </div>
+        <div id="profile">
+                <img src="images/user.png" alt="">
+            <div class="menu-wrapper">
+               <div>User</div>
+               <div class="profile-sign-out">Sign out</div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="thin-border"></div>
+  </nav>
+</body>
+</html>
