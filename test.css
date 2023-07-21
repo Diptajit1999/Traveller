@@ -75,3 +75,29 @@ section{
     transform: translateX(0);
     opacity: 1;
 }
+
+
+.video-container {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+}
+
+#background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.content {
+    /* Your content styles go here */
+    /* For example: */
+    padding: 20px;
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+}
