@@ -1,0 +1,86 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    /* font-family: 'Kalam', cursive; */
+  }
+  body {
+    background-color: rgb(241, 236, 236);
+    background-image: url("https://e0.pxfuel.com/wallpapers/898/938/desktop-wallpaper-travel-tours-and-travels-background-travel-and-tourism.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+    /* opacity: 0.5; */
+    text-align: center;
+    font-size: 20px;
+    /* font-family: "Roboto", sans-serif; */
+  
+    background-color: #131316;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+  }
+  .skformDdiv{
+      /* border:1px solid red; */
+      width:430px;
+      height:550px;
+      margin: auto;
+      /* color:black; */
+      /* text-align: left; */
+      padding: 10px;
+      /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+      border-radius: 10px;
+      box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+      margin-top: 20px;
+      /* border: 1px solid black; */
+  }
+  label {
+    display: block;
+    /* width: 150px; */
+    margin-left: 20px;
+    text-align: left;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-size: 15px;
+    font-weight: bold;
+    
+  }
+  #skform input{
+      height:30px;
+      width:360px;
+      /* margin: auto; */
+      /* margin-top: 10px; */
+      margin-bottom: 10px;
+      border-radius: 10px;
+      padding:10px;
+      font-size: 15px;
+      /* color: black; */
+      border: none;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      background-color: rgb(214, 185, 185);
+      transition: width 0.3s, height 0.3s, transform 0.3s;
+  }
+  #skform input:hover{
+      height:40px;
+      width:380px;
+      box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  }
+  #skform > div{
+    display: flex;
+    justify-content: space-between;
+    width:300px;
+    margin: auto;
+  }
+  #skform > div input{
+      height:40px;
+      width:100px;
+      margin-top: 20px;
+      border-radius: 50px;
+      font-size: 17px;
+      font-weight: bold;
+      transition: width 0.3s, height 0.3s, transform 0.3s;
+  }
+  #skform > div input:hover{
+      height:50px;
+      width:120px;
+  }

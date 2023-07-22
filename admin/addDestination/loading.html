@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Please Wait.....</title>
+    <style>
+        #waitDiv{
+            width:100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 100px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="waitDiv">
+    </div>
+</body>
+</html>
+<script>
+    let waitDiv = document.getElementById("waitDiv");
+    let img = document.createElement("img");
+    img.src="https://www.transcriptioncertificationinstitute.org/images/tci-loader.gif"
+    waitDiv.append(img);
+    setTimeout(function(){
+        window.location.href="/admin.html";
+      },4350)
+</script>
