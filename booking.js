@@ -1,18 +1,18 @@
 const subEmail = document.querySelector(".email-input");
 const subscribeButton = document.querySelector(".email-subs button");
 
-subscribeButton.addEventListener("click", () => {
-    const email = subEmail.value.trim();
+// subscribeButton.addEventListener("click", () => {
+//     const email = subEmail.value.trim();
 
-    if (email !== "") {
-        swal("Good job!", `You have Subscribe to our Newsletter with ` + email, "success").then(() => {
-            subEmail.value = "";
-        });
+//     if (email !== "") {
+//         swal("Good job!", `You have Subscribe to our Newsletter with ` + email, "success").then(() => {
+//             subEmail.value = "";
+//         });
 
-    } else {
-        swal("Error", "Enter the Email", "error");
-    }
-});
+//     } else {
+//         swal("Error", "Enter the Email", "error");
+//     }
+// });
 
 
 
