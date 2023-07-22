@@ -1,11 +1,16 @@
 let content = document.querySelector(".skcontent");
+
 let homeTab = document.getElementById("homeTab");
+homeTab.addEventListener("click",function(){
+  window.location.href="../index.html"
+});
+
 let addUsrTab = document.getElementById("addUsrTab");
 let addDstnTab = document.getElementById("addDstnTab");
 addDstnTab.onclick=function(){
   window.location.href="./addDestination/addDestination.html"
 }
-let updDstnTab = document.getElementById("updDstnTab");
+// let updDstnTab = document.getElementById("updDstnTab");
 // updDstnTab.onclick=function(){
 //   window.location.href="./updateDestination/updateDestination.html"
 // }
