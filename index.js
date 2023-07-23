@@ -58,7 +58,7 @@ function showDataBorder(item){
 }
 
 about.onclick = () => {
-    window.scrollTo(0, 3850);
+    window.location = './about.html';
 }
 
 

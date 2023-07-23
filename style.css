@@ -343,7 +343,7 @@ nav > div {
 .card-details > div:first-child > p {
   font-size: 15px;
   font-weight: 600;
-  color: #333;
+  color: #aaaaaa;
 }
 
 .card-details > div:first-child > p:last-child {
@@ -383,7 +383,7 @@ nav > div {
   margin-bottom: 3rem;
   font-size: 24px;
   font-weight: 700;
-  color: #333;
+  color: #c5c5c5;
 }
 #cards-carousel {
   display: flex;
@@ -435,9 +435,11 @@ nav > div {
 }
 .holiday-details h3 {
   font-size: 14px;
+  color: #3b3b3b;
 }
 .holiday-details>div>p{
   font-size: 14px;
+  color: #3b3b3b;
 }
 
 .holiday-details > div:last-child {
