@@ -26,10 +26,10 @@ if(userStatus && userStatus.login){
 
 //--------------Sign-up--------------
 signUp.onclick = ()=>{
-  window.location = '/signup.html'
+  window.location = '../SignUp/SignUp.html'
 }
 menuSignUp.onclick = ()=>{
-  window.location = '/signup.html'
+  window.location = '../SignUp/SignUp.html'
 }
 
 // ---------------Page-redirection-------

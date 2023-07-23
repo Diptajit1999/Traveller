@@ -204,7 +204,7 @@ function appending(ls_data) {
         button.id = "boook";
       }, 3000);
     } else {
-      window.location = '/payment.html'
+      window.location = '/Booking.html'
      
     }
   });

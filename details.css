@@ -184,7 +184,7 @@ body {
   gap: 50px;
 }
 #similars > #similar div {
-  background-color: white;
+  background-color: rgb(207, 207, 207);
   display: flex;
   border-radius: 11px;
   align-items: center;
@@ -203,6 +203,9 @@ body {
 .hotel_star {
   color: #e65c00;
   letter-spacing: 2px;
+}
+.hotel_name{
+  color: #535353;
 }
 
 #hotel-display {
@@ -257,17 +260,17 @@ content: "rating ";
 background-color: #e65c00;
 padding: 4px;
 border-radius: 5px;
-color: white;
+color: rgb(153, 153, 153);
 margin-right: 8px;
 }
 .cancel>:nth-child(1){
 font-weight: 900;
-color: #737373;
+color: #aaaaaa;
 margin-top: 20px;
 letter-spacing: 2px;
 }
 .cancel>:nth-child(2){
-color: #423f3f;
+color: #808080;
 letter-spacing: 2px;
 font-size: var(--size);
 font-weight: 600;
@@ -370,7 +373,7 @@ footer{
   max-width: 370px;
   min-width: 330px;
   padding-left: 2rem;
-  color: #333;
+  color: #aaaaaa;
   outline: none;
   font-size: 14px;
   font-weight: 400;
@@ -506,13 +509,14 @@ footer{
   border: #ccc 1px solid;
   padding: 2px;
 }
+
 .data_div{
  font-size: 90%;
  /* margin-left: 2rem; */
 }
 .facility_div>p{
  font-size: 15px;
- color: #333;
+ color: #aaaaaa;
 }
 body{
   background: #fff;

@@ -277,7 +277,7 @@ nav > div {
 .place-card {
   font-weight: 600;
   border-radius: 30px;
-  box-shadow: 0 0 5px #0707073f;
+  box-shadow: 0 0 5px #b6b6b6c2;
   overflow: hidden;
   cursor: pointer;
 }
