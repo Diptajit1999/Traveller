@@ -5,7 +5,10 @@ body{
     height: 640px;
     display: flex;
     align-items: center;
-    background-color: #0074d3c7;
+    /* background-color: #0074d3c7; */
+    background-image: url("https://www.adorama.com/alc/wp-content/uploads/2018/11/landscape-photography-tips-yosemite-valley-feature.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #maincontainer{
     width: 60%;
@@ -16,7 +19,7 @@ body{
     justify-content: center;
 }
 #left{
-    background-color:#70bfffe8;
+    background-color:#70bfff98;
     height: 550px;
     display: flex;
     /* min-height: 500px;
@@ -39,7 +42,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background-color: #70bfffe8;
+    background-color: #70bfff98;
     padding: 20px;
     /* min-height: 500px; */
     /* height: 500px; */
