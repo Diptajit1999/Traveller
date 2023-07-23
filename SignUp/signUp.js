@@ -7,6 +7,14 @@ formData.addEventListener("submit", function(e){
 let mail = document.getElementById("email").value
 let name = document.getElementById("fname").value + " " +document.getElementById("lname").value;
 let password =document.getElementById("password").value;
+function validateEmail(email) {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailRegex.test(email.trim());
+  }
+  if (!validateEmail(mail)) {
+    message.innerHTML = 'Please enter a valid email address.';
+    return;
+  }
 let userCrd={
                 name : name,
                 email: mail,

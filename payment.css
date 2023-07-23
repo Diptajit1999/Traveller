@@ -145,6 +145,25 @@ body {
   cursor: pointer;
   background-color: #0077ffb4;
 }
+.btn-cancle {
+  color: #fff;
+  background-color: #1884ff;
+  border-radius: 6px;
+  text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+  box-shadow: 0 2px 0 rgb(0 0 0 / 5%);
+  outline: none;
+  width: 235px;
+  height: 40px;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.btn-cancle:hover {
+  cursor: pointer;
+  background-color: #0077ffb4;
+}
 
 .payment-box-input {
   box-sizing: border-box;

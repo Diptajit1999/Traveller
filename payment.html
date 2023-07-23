@@ -30,7 +30,7 @@
                     <div id="box2" class="box" onclick="showMethod('box2','net-banking')"> NetBanking </div>
                     <div id="box3" class="box" onclick="showMethod('box3','wallet')"> Wallet </div>
                     <div id="box4" class="box" onclick="showMethod('box4','upi')"> UPI </div>
-                    <div id="box5" class="box" onclick="showMethod('box5','cashOnDelivery')"> Cash on Delivery </div>
+                    <!-- <div id="box5" class="box" onclick="showMethod('box5','cashOnDelivery')"> Cash on Delivery </div> -->
                 </div>
 
 
@@ -38,7 +38,7 @@
                     <div class="pay-head">Add New Card</div>
                     <p id="payWarning"></p>
                     <div class="pay-sub-head">Card Number</div>
-                    <div> <input class="payment-box-input" id="cardNumber" type=""></div>
+                    <div> <input class="payment-box-input" maxlength="16" id="cardNumber" type=""></div>
                     <div class="pay-sub-head">Name on Card</div>
                     <div><input class="payment-box-input" id="holderName" type="text"></div>
                     <div>
@@ -78,14 +78,17 @@
                             </select></div>
 
                         <div>
-                            <input id="cvv" type="text">
+                            <input id="cvv" maxlength="3" type="text">
                         </div>
                     </div>
 
                     <div class="credit-checkbox-input"> <input type="checkbox" value="true" checked=""><pre> </pre> Save these details
                         for faster checkout</div>
 
-                    <div> <button onclick="placeOrder('card')" class="btn-payment">PAY SECURELY</button></div>
+                    <div>
+                        <button onclick="placeOrder('card')" class="btn-payment">PAY SECURELY</button>
+                        <button onclick="canclepayment()" class="btn-cancle">CANCLE</button>
+                    </div>
                     <div class="pay-head-bottom">By placing this order, you agree to Trip tribe</div>
 
                 </div>
@@ -117,7 +120,10 @@
                     </div>
 
                     <div class="view-expansion">View More Banks</div>
-                    <div><Button onclick="placeOrder()" class="btn-payment">PAY SECURELY</Button></div>
+                    <div>
+                        <Button onclick="placeOrder()" class="btn-payment">PAY SECURELY</Button>
+                        <button onclick="canclepayment()" class="btn-cancle">CANCLE</button>
+                    </div>
                     <div class="pay-head-bottom"> By placing this order, you agree toTrip tribe</div>
                 </div>
 
@@ -142,7 +148,10 @@
                         </div>
                     </div>
                     <div class="view-expansion">View More Banks</div>
-                    <div><Button onclick="placeOrder()" class="btn-payment">PAY SECURELY</Button></div>
+                    <div>
+                        <Button onclick="placeOrder()" class="btn-payment">PAY SECURELY</Button>
+                        <button onclick="canclepayment()" class="btn-cancle">CANCLE</button>
+                    </div>
                     <div class="pay-head-bottom"> By placing this order, you agree to Trip tribe</div>
                 </div>
 
@@ -158,18 +167,21 @@
                     <div class="credit-checkbox-input"> <input type="checkbox" value="true" checked=""><pre> </pre>Save this UPI ID
                         for faster checkout</div>
 
-                    <div><button onclick="placeOrder('upi')" class="btn-payment">PAY SECURELY</button></div>
+                    <div>
+                        <button onclick="placeOrder('upi')" class="btn-payment">PAY SECURELY</button>
+                        <button onclick="canclepayment()" class="btn-cancle">CANCLE</button>
+                    </div>
 
                     <div class="pay-head-bottom"> By placing this order, you agree to Trip tribe</div>
                 </div>
 
-                <div id="cashOnDelivery" class="payment-box-2 cash-on-delivery ">
+                <!-- <div id="cashOnDelivery" class="payment-box-2 cash-on-delivery ">
                     <div class="pay-head">Cash on Delivery</div>
                     <div> For safe, contactless and hassle free delivery, pay using card/wallet/netbanking</div>
                     <div><button onclick="placeOrder()" class="btn-payment">PLACE ORDER</button></div>
                     <div class="pay-head-bottom"> By placing this order, you agree to Trip tribe <span
                             class="view-expansion">T&C </span> </div>
-                </div>
+                </div> -->
 
             </div>
         </div>

@@ -6,6 +6,9 @@ homeTab.addEventListener("click",function(){
 });
 
 let addUsrTab = document.getElementById("addUsrTab");
+addUsrTab.addEventListener("click",function(){
+  window.location.href="../about.html"
+})
 let addDstnTab = document.getElementById("addDstnTab");
 addDstnTab.onclick=function(){
   window.location.href="./addDestination/addDestination.html"

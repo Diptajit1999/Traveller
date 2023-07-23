@@ -75,83 +75,27 @@
         <label for="checkout">Check-out Date:</label>
         <input type="date" id="checkout" name="checkout" required>
       </div>
-      <div class="form-group">
+      <!-- <div class="form-group">
         <label for="adults">Number of Adults:</label>
         <input type="number" id="adults" name="adults" min="1" required>
       </div>
       <div class="form-group">
         <label for="children">Number of Children:</label>
         <input type="number" id="children" name="children" min="0" required>
-      </div>
+      </div> -->
       <div class="form-group">
         <input type="submit" value="Book Now">
       </div>
     </form>
   </div>
     </div>
-
-<h1></h1>
-
-
-  
-  
+<h1></h1>  
 </body>
 
 
 
-    <!-- footer -->
-
-    <!-- <footer>
-        <h1 style="text-align: center;  margin-top: 5%;">Subscribe Our NewsLetter</h1>
-        <div class="email-subs">
-            <input type="email" placeholder="Enter your Email Id" class="email-input">
-            <button>Subscribe</button>
-        </div>
-        <div class="fot-divs">
-            <div class="fot-div1">
-                <a href="/index.html"><img src="/image/Traveller logo.png" alt="" srcset=""></a>
-                <p><ion-icon name="location" class="icons1"></ion-icon></ion-icon> Lakshmipuram road, Guntur Andra
-                    Pradesh,
-                    India</p>
-                <p><ion-icon name="call" class="icons"></ion-icon> 0863 - 222000</p>
-                <p><ion-icon name="mail" class="icons"></ion-icon> travellermailId@gmail.com</p>
-            </div>
-            <div class="fot-div2">
-                <h2>MY ACCOUNT</h2>
-                <p>Search terms</p>
-                <p>Advance search</p>
-                <p>Order & Return</p>
-                <p>Hekps & FAQ</p>
-                <p>Store Location</p>
-            </div>
-            <div class="fot-div2">
-                <h2>INFORMATION</h2>
-                <p>News</p>
-                <p>FAQ</p>
-                <p>Returns & Refunds</p>
-                <p>Delivary</p>
-                <p>Privacy Policy &<br>Terms & Conditions</p>
-            </div>
-            <div class="fot-div2">
-                <h2>Activities</h2>
-                <p>Rock Climbing Gears</p>
-                <p>Solar Powered helmet</p>
-                <p>pull Rope Rubber</p>
-                <p>Pairing knife</p>
-                <p>Ladder Golf</p>
-            </div>
-        </div>
-        <div class="follow">
-            <h3>FOLLOW US ON</h3>
-            <ion-icon name="logo-facebook" class="folicon"></ion-icon>
-            <ion-icon name="logo-instagram" class="folicon"></ion-icon>
-            <ion-icon name="logo-twitter" class="folicon"></ion-icon>
-        </div>
-
-    </footer> -->
 
 <script>
-    // Function to store form data in LocalStorage
     function storeFormData() {
       const formData = {
         firstname: document.getElementById('firstname').value,
@@ -164,22 +108,17 @@
         children: document.getElementById('children').value,
       };
 
-      // Convert form data to a JSON string
+      
       const formDataJSON = JSON.stringify(formData);
 
-      // Store the JSON string in LocalStorage
+     
       localStorage.setItem('bookingFormData', formDataJSON);
     }
-
-    // Event listener to handle form submission
     document.getElementById('booking-form').addEventListener('submit', function(event) {
-      event.preventDefault(); // Prevent the form from submitting normally
+      event.preventDefault(); 
       storeFormData();
-      // You can add additional logic here, like showing a confirmation message, redirecting to another page, etc.
-      // alert('Booking data stored in LocalStorage.');
-      // this.reset(); // Reset the form after storing the data
+      this.reset(); 
       setTimeout(function() {
-    // Redirect to the payment page after a one-second delay
         window.location.href = 'payment.html';
       }, 1000);
     });
