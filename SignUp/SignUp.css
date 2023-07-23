@@ -5,7 +5,7 @@ body{
     height: 640px;
     display: flex;
     align-items: center;
-    background-color: #509b56;
+    background-color: #0074d3c7;
 }
 #maincontainer{
     width: 60%;
@@ -16,7 +16,7 @@ body{
     justify-content: center;
 }
 #left{
-    background-color:rgb(181, 255, 185);
+    background-color:#70bfffe8;
     height: 550px;
     display: flex;
     /* min-height: 500px;
@@ -39,7 +39,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background-color: rgb(181, 255, 185);
+    background-color: #70bfffe8;
     padding: 20px;
     /* min-height: 500px; */
     /* height: 500px; */
@@ -78,7 +78,7 @@ body{
     font-size: 16px;
     border: none;
     border-radius: 10px;
-    background-color: rgb(36, 173, 43);
+    background-color: #086fc4e8;
 }
 input{
     margin-top: 5px;
