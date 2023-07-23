@@ -43,7 +43,7 @@ nav .right {
 
 nav .right .right1 a {
     margin-right: 20px;
-    color: black;
+    color: rgb(253, 252, 252);
     text-decoration: none;
     font-size: larger;
     padding-bottom: 30px;
@@ -180,7 +180,7 @@ video {
 
 .content h2 {
     font-size: 41px;
-    color: black;
+    color: rgb(236, 222, 222);
     line-height: 1.2;
     text-align: justify;
 }
