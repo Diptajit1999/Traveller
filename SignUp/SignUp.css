@@ -110,92 +110,27 @@ input{
 }
 #left img{
     width: 100%;
-    /* opacity: 100%; */
     border-radius: 15px;
-    /* margin-bottom: 70px; */
 }
 #left>div>p{
-    /* margin-bottom: 130px; */
     padding-left: 20px;
-    /* padding-right: 20px; */
     line-height: 30px;
     font-size: 18px;
 }
 @media screen and (min-width : 700px) and (max-width: 900px) {
     #maincontainer{
         width: 80%;
-        /* margin: auto;
-        display: flex;
-        gap: 20px;
-        align-items: center;
-        justify-content: center; */
     }
-    /* #left{
-        background-color:rgb(233, 176, 187);
-        height: 500px;
-        display: flex;
-        text-align: center;
-        flex-direction: column;
-        /* justify-content: space-between; */
-        /* width: 40%; */
-        /* padding: 20px; */
-        /* opacity: 85%; */
-        /* font-size: 16px; */
-        /* border-radius: 15px; */
-    /* } */
-    /* #right{ */
-        /* width: 50%; */
-        /* display: flex; */
-        /* flex-direction: column; */
-        /* justify-content: space-around; */
-        /* background-color: rgb(255, 230, 235); */
-        /* padding: 20px; */
-        /* height: 500px; */
-        /* border-radius: 15px; */
-    /* } */ 
 }
 @media screen and (min-width : 600px) and (max-width: 699px) {
     #maincontainer{
         width: 90%;
-        /* margin: auto;
-        display: flex;
-        gap: 20px;
-        align-items: center;
-        justify-content: center; */
     }
-    /* #left{
-        background-color:rgb(233, 176, 187);
-        height: 500px;
-        display: flex;
-        text-align: center;
-        flex-direction: column;
-        /* justify-content: space-between; */
-        /* width: 40%; */
-        /* padding: 20px; */
-        /* opacity: 85%; */
-        /* font-size: 16px; */
-        /* border-radius: 15px; */
-    /* } */
-    /* #right{ */
-        /* width: 50%; */
-        /* display: flex; */
-        /* flex-direction: column; */
-        /* justify-content: space-around; */
-        /* background-color: rgb(255, 230, 235); */
-        /* padding: 20px; */
-        /* height: 500px; */
-        /* border-radius: 15px; */
-    /* } */
 }
 @media screen and (min-width : 440px) and (max-width: 599px) {
     #maincontainer{
         width: 95%;
         flex-direction: column;
-        /* margin: auto;
-        display: flex;
-        gap: 20px;
-        align-items: center;
-        justify-content: center; */
     }
     #inputdetail{
         display: flex;
@@ -208,25 +143,13 @@ input{
         width: 100%;
     }
     #left{
-
-        /* display: none; */
-        /* background-color:rgb(233, 176, 187); */
         height: auto;
-        /* display: flex; */
-        /* text-align: center; */
-        /* flex-direction: column; */
-        /* justify-content: space-between; */
         width: 60%;
         padding: 0px;
         margin-top: 20px;
-        /* opacity: 85%; */
-        /* font-size: 16px; */
-        /* border-radius: 15px; */
     }
     #left img{
         width: 100%;
-        /* height: 50px; */
-        /* opacity: 100%; */
         border-radius: 15px;
         margin: 0px;
     }
@@ -245,48 +168,24 @@ input{
     }
     #right{ 
         width: 70%;
-        /* display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        background-color: rgb(255, 230, 235);
-        padding: 20px;*/
         margin-top: 20px;
         margin-bottom: 20px;
         height: auto; 
-        /* border-radius: 15px;  */
     }
 }
 @media screen and (min-width : 100px) and (max-width: 439px) {
     #maincontainer{
         width: 95%;
         flex-direction: column;
-        /* margin: auto;
-        display: flex;
-        gap: 20px;
-        align-items: center;
-        justify-content: center; */
     }
     #left{
-        /* width: 80%; */
-        /* display: none; */
-        /* background-color:rgb(233, 176, 187); */
         height: auto;
-        /* display: flex;
-        text-align: center;
-        flex-direction: column;
-        justify-content: space-between; */
         width: 60%;
-        /* height: 70px; */
         padding: 0px;
         margin-top: 20px;
-        /* opacity: 85%;
-        font-size: 16px;
-        border-radius: 15px; */
     }
     #left img{
         width: 100%;
-        /* height: 50px; */
-        /* opacity: 100%; */
         border-radius: 15px;
         margin: 0px;
     }
@@ -305,15 +204,9 @@ input{
     }
     #right{ 
         width: 80%;
-        /* display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        background-color: rgb(255, 230, 235);
-        padding: 20px; */
         height: auto;
         margin-top: 20px;
         margin-bottom: 20px;
-        /* border-radius: 15px; */
     }
 }
 
