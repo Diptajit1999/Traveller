@@ -25,41 +25,41 @@ var storedData = JSON.parse(localStorage.getItem('detail-data'));
 placeName.innerHTML = `
     <img src= "${storedData.image.startsWith('https')?storedData.image:`/${storedData.image}`}" alt="" class="place-image">
 `
+    var firstName = document.getElementById('firstName');
+    var lastName = document.getElementById('lastName');
+    var email = document.getElementById('email');
+    var gender = document.querySelector('input[name="gender"]:checked');
+    var checkIn = document.querySelector('input[data-placeholder="Check-in"]');
+    var checkOut = document.querySelector('input[data-placeholder="Check-out"]');
+    var numOfAdults = document.getElementById('guest');
+    var numOfChildren = document.getElementById('children');
 
-
-var placeElement = document.getElementById('place');
+// var placeElement = document.getElementById('place');
 var priceElement = document.getElementById('price');
+let price = localStorage.getItem("price") || '';
 
-placeElement.innerHTML = `Place:<span class='place-highlight'> <ion-icon name="location-outline"></ion-icon>  ` + storedData.city + `, ` + storedData.country + `</span>`;
-priceElement.innerHTML = "Price: <span class='price-highlight'>₹ " + storedData.price + "/-</span>";
+// placeElement.innerHTML = `Place:<span class='place-highlight'> <ion-icon name="location-outline"></ion-icon>  ` + storedData.city + `, ` + storedData.country + `</span>`;
+priceElement.innerHTML = `Price : ₹ ((${numOfAdults.value}*${price})+(${numOfChildren.value}*${price}*0.7))`;
 
 // form page
-var form = document.querySelector('.submit-btn');
+var submit = document.querySelector('submitbtn');
 
-form.addEventListener('click', function (e) {
+submit.addEventListener('click', function (e) {
     e.preventDefault();
-    var firstName = document.getElementById('firstName').value;
-    var lastName = document.getElementById('lastName').value;
-    var email = document.getElementById('email').value;
-    var gender = document.querySelector('input[name="gender"]:checked');
-    var checkIn = document.querySelector('input[data-placeholder="Check-in"]').value;
-    var checkOut = document.querySelector('input[data-placeholder="Check-out"]').value;
-    var numOfAdults = document.getElementById('guest').value;
-    var numOfChildren = document.getElementById('children').value;
 
     var payment = {
-        Name: firstName + " " + lastName,
-        email: email,
+        Name: firstName.value + " " + lastName.value,
+        email: email.value,
         gender: gender ? gender.value : "",
-        check_In: checkIn,
-        check_Out: checkOut,
-        Adults: numOfAdults,
-        Children: numOfChildren,
-        Place: storedData.country,
-        Location: storedData.city,
+        check_In: checkIn.value,
+        check_Out: checkOut.value,
+        Adults: numOfAdults.value,
+        Children: numOfChildren.value,
+        // Place: storedData.country,
+        // Location: storedData.city,
         Price: storedData.price
     };
     console.log(payment);
     localStorage.setItem('payment', JSON.stringify(payment));
-    window.location.href = "/htmls/Payment.html";
+    window.location = './payment.html';
 });
