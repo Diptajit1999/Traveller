@@ -506,10 +506,6 @@ footer{
   border: #ccc 1px solid;
   padding: 2px;
 }
-.details_div{
-  /* flex-direction: row; */
-  /* flex-wrap: wrap; */
-}
 .data_div{
  font-size: 90%;
  /* margin-left: 2rem; */
