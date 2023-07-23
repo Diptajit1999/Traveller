@@ -88,7 +88,7 @@ signOutBtn.onclick = ()=>{
 
 function goToDetail(id){
  localStorage.setItem('location',id)
- window.location = '/details.html'
+ window.location = './details.html'
 }
 
 // -------------------------Searching-functionality------------
@@ -260,7 +260,7 @@ button.addEventListener("click",()=>{
 
 let container = document.getElementById('locationdetail')
 
-let url = `https://645f3bf99d35038e2d1f5356.mockapi.io/locations`
+let url = `https://spiritual-school-8644-data.onrender.com/places`
 
 let locationData = []
 
@@ -268,9 +268,23 @@ async function fetchData(url) {
       let res = await fetch(url);
       let data = await res.json();
       locationData = data
+      console.log(data)
       showData(data)
 }
+//  async function getData() {
+//       try {
+//         const response = await fetch('https://spiritual-school-8644-data.onrender.com/places');
+//         if (!response.ok) {
+//           throw new Error('Network response was not ok');
+//         }
 
+//         const data = await response.json();
+//         console.log('Data:', data);
+//       } catch (error) {
+//         console.error('Error:', error.message);
+//       }
+//     }
+// getData()
 fetchData(url)
 
 function showData(data){
