@@ -7,8 +7,6 @@
     <link rel="stylesheet" href="Booking.css">
 </head>
 
-
-
 <body>
 
     <div class="container">
@@ -178,8 +176,12 @@
       event.preventDefault(); // Prevent the form from submitting normally
       storeFormData();
       // You can add additional logic here, like showing a confirmation message, redirecting to another page, etc.
-      alert('Booking data stored in LocalStorage.');
-      this.reset(); // Reset the form after storing the data
+      // alert('Booking data stored in LocalStorage.');
+      // this.reset(); // Reset the form after storing the data
+      setTimeout(function() {
+    // Redirect to the payment page after a one-second delay
+        window.location.href = 'payment.html';
+      }, 1000);
     });
   </script>
 <script src="booking.js"></script>
