@@ -40,7 +40,7 @@ function goToPage(page){
     window.location = `/${page}.html`
 }
 about.onclick = () => {
-    window.scrollTo(0, 3850);
+    window.location = `./about.html`;
 }
 
 //-----------------Event-handlers-------
