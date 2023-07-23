@@ -5,33 +5,37 @@
   /* font-family: 'Kalam', cursive; */
 }
 body {
-  background-color: rgb(241, 236, 236);
+  /* background-color: rgb(241, 236, 236);
   background-image: url("https://e0.pxfuel.com/wallpapers/898/938/desktop-wallpaper-travel-tours-and-travels-background-travel-and-tourism.jpg");
   background-color: #cccccc;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
   /* background-position: center; */
-  background-size: cover;
+  /* background-size: cover; */
   /* opacity: 0.5; */
   text-align: center;
-  color: bisque;
   font-size: 20px;
   /* font-family: "Roboto", sans-serif; */
 
+  /* font-family: monospace; */
+  /* font-family: 'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif; */
+  /* position: relative; */
   background-color: #131316;
   color: #ffffff;
   font-family: 'Poppins', sans-serif;
 }
 .skformDdiv{
-    /* border:1px solid red; */
+    border:1px solid white;
     width:430px;
     height:500px;
+    border-radius: 5px 40px 5px 40px;
     margin: auto;
     padding: 10px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    border-radius: 10px;
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+    /* border-radius: 10px; */
     margin-top: 30px;
     /* border: 1px solid black; */
-    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    /* box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset; */
 }
 #skform input{
     height:40px;
@@ -40,10 +44,12 @@ body {
     border-radius: 10px;
     padding:10px;
     font-size: 17px;
-    color: black;
-    border: none;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    background-color: rgb(214, 185, 185);
+    color: white;
+    background-color: transparent;
+    border-radius: 5px 20px 5px 20px;
+    border: 1px solid white;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    /* background-color: rgb(214, 185, 185); */
     transition: width 0.3s, height 0.3s, transform 0.3s;
 }
 #skform input:hover{
@@ -56,14 +62,16 @@ body {
     justify-content: space-between;
     width:300px;
     margin: auto;
+    
   }
   #skform > div input{
       height:40px;
       width:100px;
       margin-top: 20px;
-      border-radius: 50px;
+      /* border-radius: 50px; */
       font-size: 17px;
-      font-weight: bold;
+      /* font-weight: bold; */
+      border-radius: 5px 30px 5px 30px;
       transition: width 0.3s, height 0.3s, transform 0.3s;
   }
   #skform > div input:hover{
