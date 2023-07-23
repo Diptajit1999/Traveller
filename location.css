@@ -5,14 +5,9 @@
   
   body {
     /* font-family: monospace; */
-    /* font-family: 'Roboto', sans-serif;
-    font-family: 'Poppins', sans-serif; */
-    /* position: relative; */
-    background-color: #131316;
-    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
     font-family: 'Poppins', sans-serif;
-    padding: 0;
-    margin: 0;
+    /* position: relative; */
   }
   button {
     cursor: pointer;
@@ -533,4 +528,3 @@
     margin: 3rem;
   }
 }
-
