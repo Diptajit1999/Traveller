@@ -387,8 +387,8 @@
   .card-image{
     height: 180px !important;
   }
-  #locationdetail>div img{
-  }
+  /* #locationdetail>div img{
+  } */
   footer {
     padding-top: 1.8rem;
     background: #3ea8ff;
