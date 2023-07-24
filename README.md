@@ -1,6 +1,6 @@
 # spiritual-school-8644
 
-# [Travel Tourism](spiritual-school-8644.netlify.app)
+# [Travel Tourism](https://spiritual-school-8644-travel-tour.netlify.app/)
 
 - Clone of [Ecotourism](https://dribbble.com/shots/21258813-Ecotourism-Travel-Landing-Page-Hero)
 
@@ -17,13 +17,7 @@ A team of four people created this project over the course of five days.
 
 
 ### Netlify Link
-spiritual-school-8644.netlify.app
-
-### Description 
-
-
-
-
+(https://spiritual-school-8644-travel-tour.netlify.app/)
 
 ### JSON SERVER
 https://spiritual-school-8644-data.onrender.com
